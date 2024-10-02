@@ -1,0 +1,59 @@
+
+/*
+ https://blog.logrocket.com/17-implement-vertical-alignment-css/
+ https://sentry.io/answers/how-to-style-a-checkbox-using-css/
+ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox
+
+ */
+
+  body {
+    height: 100%;
+    margin: 3px;
+    padding: 3px;
+    text-align: left;
+    align-items: left;
+    flex: auto;
+    font-family: sans-serif;
+    color:#13274F;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+   }
+
+  h1 {   
+    font-size:40px;
+    text-align: center;
+    align-items: center;
+
+   }
+
+
+   button {
+    margin-top: 10px;
+    margin-bottom: 6px;
+    margin-left: 1px;
+    margin-right: 3px;
+    font-size: 20px;
+    padding: 6px 6px;
+    background-color:#00008B;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+   }
+
+   .main {
+    
+    font-size: 20px;
+ 
+   }
+
+   .length {
+    font-size: 20px;
+   }
+
+   .result {
+    margin-top: 1px;
+    border-style: solid;
+    border-color: #A52A2A;
+    border-width: 2px;
+   }

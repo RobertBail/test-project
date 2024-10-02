@@ -10,32 +10,40 @@
     <header>
         <h1>Password Generator</h1>
     </header>
+ <div class = "main">
+  <div>
     <label for="length">Enter Password Length (8-128 characters):</label>
-    <input type="number" id="length" min="8" max="128" value="8">
-    
+    <input type="number" class = "length" id="length" min="8" max="128" value="8">
+  </div>
+  <div>
     <label>
         <input type="checkbox" id="includeUppercase" checked>
         Include Uppercase Letters
     </label>
-
+ </div>
+  <div>
     <label>
         <input type="checkbox" id="includeLowercase" checked>
         Include Lowercase Letters
     </label>
-
+  </div>
+   <div>
     <label>
         <input type="checkbox" id="includeNumbers" checked>
         Include Numbers
     </label>
-
+  </div>
+  <div>
     <label>
         <input type="checkbox" id="includeSpecial" checked>
         Include Special Characters
     </label>
-
+  </div>
+   <div>
     <button id="generateBtn">Generate Password</button>
-    <p id="result"></p>
-
+    <p class = "result" id="result"></p>
+   </div>
+  </div>
 
 
     <script src="./assets/script.js"></script>

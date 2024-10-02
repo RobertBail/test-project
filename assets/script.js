@@ -38,5 +38,5 @@ document.getElementById('generateBtn').addEventListener('click', () => {
     };
 
     const randomPassword = generateRandomPassword(length, options);
-    document.getElementById('result').textContent = 'Generated Password: ' + randomPassword;
+    document.getElementById('result').textContent = 'New Password: ' + randomPassword;
 });
